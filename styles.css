@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+html,
+body {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(218, 28%, 13%);
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+button,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+button.call-to-action-primary {
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+  background-image: linear-gradient(
+    135deg,
+    hsl(176, 91%, 69%) 10%,
+    hsl(198, 60%, 50%) 90%
+  );
+  border: none;
+  outline: none;
+  height: 3.5em;
+  border-radius: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 40px;
+}
+
+button.call-to-action-secondary {
+  width: auto;
+  font-size: 14px;
+  background-color: transparent;
+  color: hsl(176, 68%, 64%);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  text-align: left;
+  padding: 0 0 5px 0;
+}
+
+button i {
+  margin-left: 10px;
+}
+
+.container {
+  width: 375px;
+  font-weight: 400;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.topnav img {
+  width: 90px;
+  height: auto;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 20px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.intro {
+  margin-top: 0;
+}
+
+img.section-illustration {
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  letter-spacing: 0px;
+}
+
+section {
+  margin-bottom: 90px;
+  line-height: 1.6em;
+  padding: 0 px 0 29px;
+}
+
+img.section-icon {
+  margin: 0;
+  height: 58px;
+  width: Auto;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.testimonials {
+  margin-top: 200px;
+}
+
+article {
+  text-align: left;
+  margin: 0 30px 30px 30px;
+  padding: 24px 24px 24px 24px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: hsl(219, 30%, 18%);
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.jobtitle {
+  font-size: 0.9em;
+}
+
+.flex-col {
+  display: flex;
+  line-height: 1.5em;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.small-icon {
+  display: block;
+  width: 25px;
+  margin-left: 40px;
+}
+
+.testimonials article {
+  box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.1);
+}
+
+.testimonials .sig {
+  display: flex;
+  padding-top: 20px;
+}
+
+.testimonials article img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.early-access {
+  margin: 150px 10px 0 10px;
+  padding: 25px 35px;
+  box-sizing: border-box;
+  background: hsl(217, 28%, 15%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  line-height: 1.6em;
+}
+
+.early-access button.call-to-action-primary {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.early-access input {
+  height: 3.5em;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3.5em;
+  border: 0;
+  outline: none;
+  padding-left: 30px;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.early-access button,
+.early-access input {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  margin: 0 20px 80px 10px;
+  text-align: left;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.location {
+  font-size: 1.2em;
+}
+
+.phone,
+.email {
+  font-size: 1em;
+}
+
+.contact img {
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+.contact p {
+  margin: -2px;
+  padding: 0;
+}
+
+.logo-large {
+  margin: 80px 20px 35px 20px;
+}
+
+.more-links {
+  list-style-type: none;
+  margin: 40px 0 0 20px;
+  padding: 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.more-links li {
+  margin-bottom: 20px;
+}
+
+.social {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.social i {
+  margin: 15px;
+  border-radius: 50%;
+  font-size: 1.2em;
+}
+
+footer {
+  padding-top: 100px;
+}

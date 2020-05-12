@@ -1,2 +1,0 @@
-# FyloDarkTheme
-Created with CodeSandbox
